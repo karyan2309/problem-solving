@@ -1,3 +1,6 @@
+// Using Frequency Counter Method
+// Return weather the two numbers have same frequency of digits
+
 function sameFrequency(num1, num2) {
     var obj1 = {};
     for (var i of num1.toString()) {
